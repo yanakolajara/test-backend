@@ -6,8 +6,6 @@ app.get("/", (req, res) => {
   res.send("This is an app my dude.");
 });
 
-//create controller
-
 app.use("/users", usersController);
 
 module.exports = app;
